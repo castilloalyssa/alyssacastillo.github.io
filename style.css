@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: url(IMG20210529175929.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    height: 30;
+}
+
+navbar ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 30px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a.active{
+    color: aqua;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+    padding: left 20px;
+    float: left;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.menu{
+    width: 400px;
+    cursor: pointer;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 2px;
+    margin-right: 20px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin-left: 30px;
+    color:aliceblue;
+    position: relative;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+h6{
+    margin-left: 0px;
+    margin-bottom: 0pxpx;
+    margin-top: 0px;
+    font-size: 20px ;
+    font-family: Times New Roman;
+}
+
+h2{
+    color: aquamarine;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h3{
+    color: aquamarine;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+h4{
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+
+p{
+    font-size: 32px;
+    font-family: Calibri;
+}
+
+img {
+    width: 31%;
+    margin-top: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0ps;
+    padding: 0px;
+    font-family: poppins;
+}
+
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color:blanchedalmond;
+}
+.blog-heading h5{
+    font-size: 2.4rem;
+    color: aliceblue;
+    font-weight: 600;
+}
